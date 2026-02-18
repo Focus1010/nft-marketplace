@@ -30,7 +30,7 @@ plan:
         - contract-publish:
             contract-name: nft-marketplace
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            cost: 90780
+            cost: 92780
             path: contracts/nft-marketplace.clar
             anchor-block-only: true
             clarity-version: 3
