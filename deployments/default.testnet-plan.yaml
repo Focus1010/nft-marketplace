@@ -10,17 +10,17 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait
-            remap-sender: ST2EQYREMPMDD0TATK9EEH2WRP1SMDFMCKZMWD93K
+            remap-sender: ST3VQABWR5XP7W27C2XQ9YFGKWPTG2HNCGPT7NKGX
             remap-principals:
-              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST2EQYREMPMDD0TATK9EEH2WRP1SMDFMCKZMWD93K
+              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST3VQABWR5XP7W27C2XQ9YFGKWPTG2HNCGPT7NKGX
             cost: 4680
             path: "./.cache/requirements/SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait.clar"
             clarity-version: 1
         - requirement-publish:
             contract-id: SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard
-            remap-sender: ST2EQYREMPMDD0TATK9EEH2WRP1SMDFMCKZMWD93K
+            remap-sender: ST3VQABWR5XP7W27C2XQ9YFGKWPTG2HNCGPT7NKGX
             remap-principals:
-              SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE: ST2EQYREMPMDD0TATK9EEH2WRP1SMDFMCKZMWD93K
+              SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE: ST3VQABWR5XP7W27C2XQ9YFGKWPTG2HNCGPT7NKGX
             cost: 8400
             path: "./.cache/requirements/SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard.clar"
             clarity-version: 1
@@ -29,7 +29,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: nft-marketplace
-            expected-sender: ST2EQYREMPMDD0TATK9EEH2WRP1SMDFMCKZMWD93K
+            expected-sender: ST3VQABWR5XP7W27C2XQ9YFGKWPTG2HNCGPT7NKGX
             cost: 92780
             path: contracts/nft-marketplace.clar
             anchor-block-only: true
